@@ -9,8 +9,7 @@
     "typings": "typings",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "prepublish": "typings install && tsc",
-    "preinstall": "prepublish"
+    "prepublish": "typings install && tsc"
   },
   "files": ["index.d.ts", "src/*.js", "src/*.d.ts"],
   "typescript": {
