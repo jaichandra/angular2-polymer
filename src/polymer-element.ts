@@ -19,11 +19,11 @@ import { __platform_browser_private__ } from '@angular/platform-browser';
 const Polymer:any = (<any>window).Polymer;
 
 class PolymerDomAdapter extends BrowserDomAdapter {
-  createStyleElement(css:any, doc:Document = document) {
-    var style:any = doc.createElement.call(doc, 'style', 'custom-style');
-    this.appendChild(style, this.createTextNode(css));
-    return style;
-  }
+  // createStyleElement(css:any, doc:Document = document) {
+  //   var style:any = doc.createElement.call(doc, 'style', 'custom-style');
+  //   this.appendChild(style, this.createTextNode(css));
+  //   return style;
+  // }
 }
 
 class PolymerShadyDomAdapter extends PolymerDomAdapter {
