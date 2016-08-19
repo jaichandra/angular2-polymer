@@ -1,12 +1,9 @@
 import {
-describe,
-expect,
-it,
 inject,
 setBaseTestProviders
 } from '@angular/core/testing';
 import { PolymerElement } from './polymer-element';
-import { TestComponentBuilder, ComponentFixture} from '@angular/compiler/testing';
+import { TestComponentBuilder, ComponentFixture} from '@angular/core/testing';
 import { Component } from '@angular/core';
 import { ControlGroup, Control } from '@angular/common';
 import { By } from '@angular/platform-browser/src/dom/debug/by';
